@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label"
+        android:textSize="18sp"
+        android:layout_margin="16dp"/>
+
+
+    <EditText
+        android:id="@+id/unos1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/insert_dividend"
+        android:inputType="number"
+        android:layout_marginStart="16dp"/>
+
+    <EditText
+        android:id="@+id/unos2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/insert_divisor"
+        android:inputType="number"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/prikaz"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:gravity="center_horizontal"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_calculate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_send"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"/>
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/btn_email"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/e_mail"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+{$= @fun1 @fun2 + i $}
+{$FOR i 0 2 $}
+	Sample text {$=i$}.
+{$END$}

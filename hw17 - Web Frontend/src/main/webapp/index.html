@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Galerija</title>
+<style>
+
+body {
+    background-color: grey;
+}
+
+h1 {
+	font-style: bold;
+	color: lightblue;
+	text-shadow: 1px 1px lightgrey;
+}
+
+h1:HOVER {
+	font-style: bold;
+	color: red;
+}
+
+div{
+	color: white;
+}
+
+
+</style>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/htmlescaping.js"></script>
+<script type="text/javascript">
+<!--
+
+	$(document).ready(function getTags() {
+		$.ajax({
+			type: "GET",
+			url : "rest/tags",
+			data : {
+				dummy : Math.random()
+			},
+			dataType : "json",
+			success : function(data) {
+				var tags = data;
+				var html = "";
+				if (tags.length == 0) {
+					html = "No results..."
+				} else {
+					for (var i = 0; i < tags.length; i++) {
+						html += "<button id='" + tags[i]
+								+ "' onclick='getThumbnails(this.id);'>"
+								+ tags[i] + "</button> ";
+					}
+				}
+				$("#tags").html(html);
+			}
+		});
+	});
+
+	function getThumbnails(tag) {
+		$.ajax({
+			type: "GET",
+			url : "rest/pictures/tag/" + tag,
+			data : {
+				tag : tag,
+				dummy : Math.random()
+			},
+			dataType : "json",
+			success : function(data) {
+				var thumbs = data;
+				var html = "";
+				if (thumbs.length == 0) {
+					html = "No results..."
+				} else {
+					for (let i = 0; i < thumbs.length; i++) {
+						html += "<img id='" + thumbs[i].name
+								+ "' onclick='getPicture(this.id)' alt='"
+								+ thumbs[i].name
+								+ "' src='servlets/renderThumbnail?img="
+								+ thumbs[i].name + "'></img>";
+					}
+				}
+				$("#thumbnails").html(html);
+			}
+		});
+	}
+
+	function getPicture(name) {
+		$.ajax({
+			type: "GET",
+			url : "rest/pictures/picture/" + name,
+			data : {
+				name : name,
+				dummy : Math.random()
+			},
+			dataType : "json",
+			success : function(data) {
+				var html = "";
+				
+				html += "<img id='" + data.name + "' alt=\""
+						+ data.name
+						+ "\" src=\"servlets/renderPicture?img="
+						+ data.name + "\"></img>";
+				html += "<br>";
+				html += data.description;
+				html += "<br>";
+				html += data.tags;
+				
+				$("#picture").html(html);
+			}
+		});
+	}
+	
+//-->
+</script>
+</head>
+<body>
+	<h1>Galerija slika iz prirode</h1>
+	<div id="tags">&nbsp;</div>
+	<div id="thumbnails">&nbsp;</div>
+	<div id="picture">&nbsp;</div>
+</body>
+</html>

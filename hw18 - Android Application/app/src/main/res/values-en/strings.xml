@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OPJJ1</string>
+    <string name="label">Insert numbers!</string>
+    <string name="insert_dividend">Insert dividend</string>
+    <string name="insert_divisor">Insert divisor</string>
+    <string name="send_back">Send back</string>
+    <string name="send">Send</string>
+    <string name="send_to">Send to:</string>
+    <string name="title">Title:</string>
+    <string name="message">Message:</string>
+    <string name="email_send">Send</string>
+    <string name="e_mail">Compose email</string>
+    <string name="email_address">Email address</string>
+    <string name="calculate">Calculate</string>
+    <string name="invalid_operation">Invalid math operation</string>
+    <string name="calculate_first">Should make calculation first</string>
+    <string name="form_incomplete">Please fill all fields</string>
+    <string name="incomplete_message">Please fill in the message</string>
+    <string name="hint_message">Type message...</string>
+</resources>

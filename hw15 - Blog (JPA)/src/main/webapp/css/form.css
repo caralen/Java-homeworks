@@ -1,0 +1,19 @@
+.error {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 0.9em;
+	color: #FF0000;
+	padding-left: 110px;
+}
+
+.formLabel {
+	display: inline-block;
+	width: 100px;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.formControls {
+	margin-top: 10px;
+}

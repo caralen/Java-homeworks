@@ -1,0 +1,6 @@
+{$ FOR i 1 10 1 $}
+	{$= @cos var1 var2 "2" $}
+{$END$}
+{$FOR i 0 10 2 $}
+	Sample text.
+{$END$}

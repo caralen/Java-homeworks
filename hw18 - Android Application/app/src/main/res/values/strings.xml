@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OPJJ1</string>
+    <string name="label">Unesite brojeve!</string>
+    <string name="insert_dividend">Unesite djeljenik</string>
+    <string name="insert_divisor">Unesite djelitelj</string>
+    <string name="send_back">Šalji natrag</string>
+    <string name="send">Šalji</string>
+    <string name="send_to">Šalji na adresu:</string>
+    <string name="title">Naslov:</string>
+    <string name="message">Poruka:</string>
+    <string name="email_send">Šalji</string>
+    <string name="e_mail">Sastavi poruku</string>
+    <string name="email_address">Email adresa</string>
+    <string name="calculate">Izračunaj</string>
+    <string name="invalid_operation">Nedozvoljena operacija</string>
+    <string name="calculate_first">Potrebno je prvo napraviti izračun</string>
+    <string name="form_incomplete">Nepotpun unos, molim provjerite sva polja</string>
+    <string name="incomplete_message">Polje za poruku ne smije ostati prazno</string>
+    <string name="hint_message">Upiši poruku...</string>
+</resources>

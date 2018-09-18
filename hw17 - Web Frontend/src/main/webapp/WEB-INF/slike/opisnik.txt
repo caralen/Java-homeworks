@@ -1,0 +1,60 @@
+kapljice.jpg
+Fotografija kapljica na biljci
+kapljice, biljka
+klif.jpg
+Fotografija fotografa koji fotografira na rubu klifa
+klif, fotograf, kanjon
+lav.jpg
+Lav u polju cvijeća
+lav, cvijeće, divljina
+magla.jpg
+Rijeka i planine u magli
+magla, rijeka, planine, selo, veslači
+magla2.jpg
+Bizon u divljini u magli
+bizon, magla, divljina, zalazak
+meduze.jpg
+Jato meduza u moru
+meduze, meduza, more, sunce
+mocvara.jpg
+Biljke u močvari
+močvara, biljke, voda
+more.jpg
+Ribe u moru
+ribe, riba, more, otok, svjetionik
+noc.jpg
+Zvjezdana noć iznad planine
+zvijezde, noć, planina, jezero, voda
+planina.jpg
+Alpinist na vrhu planine
+planina, alpinist, alpinizam, snijeg, zalazak
+planina2.jpg
+Planina u zimi
+planina, borovi, drveće, snijeg
+prasuma.jpg
+Veslanje po rijeci u prašumi
+veslanje, rijeka, prašuma
+ptica.jpg
+Ptica radi gnijezdo
+ptica, gnijezdo
+rijeka.jpg
+Rijeka u šumi
+rijeka, šuma
+suncokreti.jpg
+Polje suncokreta u zalazak
+suncokreti, polje, zalazak, oblaci
+zaba.jpg
+Žaba se brani od kiše
+žaba, kiša, list, kišobran
+zalazak.jpg
+Zalazak sunca iznad ceste
+zalazak, magla, livada, cesta
+zalazak2.jpg
+Zalazak sunca iznad livade
+livada, zalazak, trava, nebo
+zec.jpg
+Zec u travi
+zec, trava
+zima.jpg
+Zaleđene crvene bobice
+zima, led, bobice

@@ -1,0 +1,40 @@
+{$= "text/html" @setMimeType $}
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {background-color: #{$= "background" "7F7F7F" @tparamGet $};}
+		</style>
+	</head>
+	<body>
+		<a href="/scripts/osnovni.smscr">Basic example</a><br>
+		<a href="/scripts/brojPoziva.smscr">Number of times page is opened</a><br>
+		<a href="/scripts/fibonaccih.smscr">First 10 fibonnaci numbers</a><br>
+		
+		<a href="/hello">Hello page</a><br>
+		<a href="/cw">Draw circle</a><br>
+		
+		<br><br>
+		<h3>Calculate the sum of a and b</h2>
+		<form action="/calc" method="get">
+			a: <input type="text" name="a"><br>
+			b: <input type="text" name="b"><br><br>
+			<input type="submit" value="Sum">
+		</form>
+		<br>
+		
+		<h3>Select color</h2>
+		<form action="/setbgcolor">
+  			<select name="bgcolor">
+  			<option value="ffffff">White</option>
+  			<option value="90CAF9">Blue</option>
+  			<option value="ef9a9a">Red</option>
+  			<option value="A5D6A7">Green</option>
+  			<option value="FFCC80">Orange</option>
+  			<option value="FFF59D">Yellow</option>
+		</select>
+		<br><br>
+  		<input type="submit" value="Change">
+		</form>
+	</body>
+</html>

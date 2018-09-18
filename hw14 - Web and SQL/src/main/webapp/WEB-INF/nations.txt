@@ -1,0 +1,7 @@
+Germany	https://www.fifa.com/worldcup/teams/team/43948/
+Spain	https://www.fifa.com/worldcup/teams/team/43969/
+Brazil	https://www.fifa.com/worldcup/teams/team/43924/
+Argentina	https://www.fifa.com/worldcup/teams/team/43922/
+Belgium	https://www.fifa.com/worldcup/teams/team/43935/
+France	https://www.fifa.com/worldcup/teams/team/43946/
+Croatia	https://www.fifa.com/worldcup/teams/team/43938/
